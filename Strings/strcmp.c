@@ -6,19 +6,15 @@ int main()
 {
     int price = 130 ; 
     char color[10];
-    char mycolor[10] = "black";
+    
     bool isColor = 0 ;
     int number = 44; 
     printf("Enter color\n");
     scanf("%s" , color);
     
-    if (strcmp(color, mycolor) == 0 ) 
-    {
-        isColor = 1 ; 
-    }
     
     bool canIReturn = 1 ; 
-    if(price <= 150 && (number == 44 || number == 45) && canIReturn && isColor)
+    if(price <= 150 && (number == 44 || number == 45) && strcmp(color , "black") == 0 && canIReturn)
     {
         printf("I have new sneakers");
     }
