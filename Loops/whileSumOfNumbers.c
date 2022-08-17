@@ -11,7 +11,7 @@ int main()
     
    while (i <= 24)
    {
-       int rezult = rezult + i ; 
+       rezult = rezult + i ; 
       /* printf("%d\n",rezult); */
        i++;
    }
