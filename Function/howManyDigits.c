@@ -6,15 +6,15 @@
 int main()
 
 {
-	int n;
-	int counter = 0;
-	scanf_s("%d", &n);
-	while (n > 0)
+	int numbers[10];
+	int sum; 
+	for (int i = 0; i < 10 l i++)
 	{
-		n = n / 10;
-		counter++;
+		scanf_s("%d", &numbers[i]);
+		sum = sum + numbers[i];
 	}
-	printf("%d", counter);
+
+	printf("%d", sum); 
 }
 	
 
