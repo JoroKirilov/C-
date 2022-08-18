@@ -6,9 +6,10 @@ void daysOfWeek(int);
 int main()
 
 {
-	float price; 
-	float lowerPrice = 100000; 
+	float price[7];
+	float lowerPrice ; 
 	char daysWithLowerPrice;
+	lowerPrice = price[0];
 	for (int i = 0; i < 7; i++)
 	{
 		scanf_s("%f", &price);
