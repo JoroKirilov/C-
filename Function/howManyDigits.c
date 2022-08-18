@@ -6,12 +6,17 @@
 int main()
 
 {
-	int n, counter; 
+	int n;
+	int counter = 0;
 	scanf_s("%d", &n);
 	while (n > 0)
 	{
-		n / 10;
+		n = n / 10;
 		counter++;
 	}
 	printf("%d", counter);
 }
+	
+
+
+
