@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1662039825 source:/home/kirilov/code_workspace/Code-Academy-/Basic course/minNumDivide/main.c
+	<stdio.h>
+	<stdlib.h>
+
