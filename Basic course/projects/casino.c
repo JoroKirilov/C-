@@ -9,7 +9,7 @@ int main()
     
     printf("\n\n\");
     
-    round1();
+    printf("%d" , round1());
     
     return 0 ; 
 }
