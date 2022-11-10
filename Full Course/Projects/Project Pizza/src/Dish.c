@@ -22,24 +22,25 @@ struct dish {
  * @return A pointer to a dish stored in the memory.
  */
 Dish *newDish(void) { //init dish funcion
-    static int a = 1;
     struct dish *tmpDish = (struct dish *) malloc(sizeof(struct dish));
     tmpDish->dishName = NULL;
     tmpDish->dishPrice = 0;
     tmpDish->numIngredients = 0;
     tmpDish->cookingTime = 0;
-    tmpDish->menuID = a;
-    a++;
+    tmpDish->menuID ;
+    
     return tmpDish;
 }
+
 void generateMaxDish(Dish **dishes, int maxDishes)
 {
     for(int i = 0; i < maxDishes; i++)
     {
         dishes[i] = newDish();
-        printf("add new dish - %d\n" , dishes[i]->menuID);
+        dishes[i]->menuID = i + 1 ; 
     }
 }
+
 Dish *findDishById (int id, Dish **dishes){
     Dish* tempDish = {0};
     if(id <= 0 || id > 12){
