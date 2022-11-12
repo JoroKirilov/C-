@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "restaurant.h": "c",
+        "dish.h": "c",
+        "defines.h": "c",
+        "graphics.h": "c",
+        "customer.h": "c",
+        "kitchen.h": "c",
+        "tables.h": "c",
+        "order.h": "c",
+        "score.h": "c"
+    }
+}
