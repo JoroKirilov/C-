@@ -12,5 +12,5 @@ int main() {
     return EXIT_OK; 
 }
 
-//todo : need to finis error handling
+//todo : need to finish error handling
 
