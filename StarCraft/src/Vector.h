@@ -22,4 +22,5 @@ void vectorDelete(Vector *vec, size_t idx);
 void vectorPop(Vector *vec);
 void vectorFree(Vector *vec);
 
+
 #endif /* VECTOR_H_ */

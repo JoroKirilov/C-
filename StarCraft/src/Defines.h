@@ -19,8 +19,11 @@ enum AirShipDefines {
   PHOENIX_SHIELD_REGENERATE_RATE = 20
 };
 
+
+
 enum AirShipType {
   BATTLE_CRUSER, VIKING, CARRIER, PHOENIX
+
 };
 
 enum CarrierDefines {
@@ -31,5 +34,10 @@ enum CarrierDefines {
 enum BattleCruserDefines {
   YAMATO_CANNON_LOADING_TURNS = 4
 };
+
+enum BattleResult {
+  ALIVE , 
+  DESTROYED , 
+} ;
 
 #endif /* DEFINES_H_ */

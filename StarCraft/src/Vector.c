@@ -6,6 +6,7 @@ void vectorInit(Vector *vec, size_t initialCapacity) {
   vec->capacity = initialCapacity;
   vec->size = 0;
   vec->items = malloc(sizeof(void*) * vec->capacity);
+  //todo : if vec is null ; 
 }
 
 size_t vectorGetSize(Vector *v) {
@@ -43,7 +44,7 @@ void vectorSet(Vector *vec, size_t idx, void *item) {
 
 void* vectorGet(Vector *vec, size_t idx) {
   if (idx < vec->size) {
-    return vec->items[idx];
+    return vec->items[idx];                //attacking
   }
   return NULL;
 }
