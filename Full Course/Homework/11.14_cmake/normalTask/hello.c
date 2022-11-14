@@ -4,5 +4,6 @@
 
 void printHelloCMakeWorld() {
     printf("Hello, CMake World!\n");
+    printf("Hello"); 
 }
 
