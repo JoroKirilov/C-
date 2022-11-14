@@ -8,6 +8,10 @@ bool vikingAttack (terranShip *attackingShip , protossShip *attackedShip)
     {
         vikingAttackPhoenix(attackingShip , attackedShip); 
     }
+    else
+    {
+        vikingAttackCarrier(attackingShip , attackedShip); 
+    }
     
 }
 

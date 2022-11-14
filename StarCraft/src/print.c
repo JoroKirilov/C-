@@ -1,21 +1,24 @@
 #include<stdio.h>
 #include "fleet.h"
-
-char *arrShips[] = {"Battle cruiser" , "Viking" , "Carrier" , "Phoenix"};
-printf("%s" , arrShips[VIKING]);  
+#include "Vector.h"
 
 void printStatus(int attackingShip,
                  protossShip **destroyedShip ,
                  size_t idxOfAttackingShip ,
-                 int idxOfDestroyedShip,
-                 battleField ) {
+                 Vector *enemiesFleet) {
+
+char *arrShips[] = {"Battle cruiser" , "Viking" , "Carrier" , "Phoenix"};
 
 //Phoenix with ID: 0 killed enemy airship with ID: 2
 
-printf("%s with ID: %zu killed enemy airship with ID: %d\n" , arrShips[attackingShip] , idxOfAttackingShip , idxOfDestroyedShip); 
+printf("%s with ID: %zu killed enemy airship with ID: %d\n", 
+                                                            arrShips[attackingShip] ,
+                                                            idxOfAttackingShip ,
+                                                            enemiesFleet->size - 1); 
 
-vectorPop()
-
+vectorPop(enemiesFleet);
+free(*destroyedShip);
+destroyedShip = NULL ;
 }
     
 
