@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/cmake_exercises.dir/main.c.o CMakeFiles/cmake_exercises.dir/print.c.o -o cmake_exercises 

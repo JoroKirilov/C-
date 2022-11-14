@@ -1,0 +1,3 @@
+/home/kirilov/code_workspace/C-/Full Course/Homework/11.14_cmake/project_cmake/build/CMakeFiles/cmake_exercises.dir
+/home/kirilov/code_workspace/C-/Full Course/Homework/11.14_cmake/project_cmake/build/CMakeFiles/edit_cache.dir
+/home/kirilov/code_workspace/C-/Full Course/Homework/11.14_cmake/project_cmake/build/CMakeFiles/rebuild_cache.dir
