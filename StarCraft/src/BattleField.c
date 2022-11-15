@@ -1,5 +1,5 @@
 #include "BattleField.h"
-#include "fleet.h"
+#include "Fleet.h"
 
 void generateTerranFleet(BattleField *battleField, const char *terranFleetStr) {
     

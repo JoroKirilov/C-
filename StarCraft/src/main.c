@@ -3,6 +3,7 @@
 
 #include "BattleField.h"
 
+#define BUFFSIZE 50
 
 bool validTerranFleet (char * fleet );
 
@@ -11,9 +12,9 @@ bool validProtossFleet (char *fleet );
 
 
 int main() {
-  const int buffSize = 50;
-  char terranFleet[buffSize];
-  char protossFleet[buffSize];
+
+  char terranFleet[BUFFSIZE];
+  char protossFleet[BUFFSIZE];
  
   do
   {

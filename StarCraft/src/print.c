@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include "fleet.h"
+#include "Fleet.h"
 #include "Vector.h"
 
 void printStatus(int attackingShip,

@@ -1,5 +1,5 @@
-#include "viking.h"
-#include "fleet.h"
+#include "Viking.h"
+#include "Fleet.h"
 #include <stdbool.h>
 
 bool vikingAttack (terranShip *attackingShip , protossShip *attackedShip)
