@@ -10,16 +10,19 @@ set(SRC_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src)
 #generate project binary
 add_executable(
     ${PROJECT_NAME}
-        ${INC_DIR}/Defines.h
-        ${INC_DIR}/Vector.h
-        ${INC_DIR}/BattleField.h
-        ${INC_DIR}/Fleet.h
-        ${INC_DIR}/BattleField.h
-        ${INC_DIR}/BattleField.h
+    ${INC_DIR}/Defines.h
+    ${INC_DIR}/Vector.h
+    ${INC_DIR}/BattleField.h
+    ${INC_DIR}/Fleet.h
+    ${INC_DIR}/Print.h
+    ${INC_DIR}/Viking.h
         
-        ${SRC_DIR}/main.c
-        ${SRC_DIR}/Vector.c
-        ${SRC_DIR}/BattleField.c
+    ${SRC_DIR}/main.c
+    ${SRC_DIR}/Vector.c
+    ${SRC_DIR}/BattleField.c
+    ${SRC_DIR}/Fleet.c
+    ${SRC_DIR}/Print.c
+    ${SRC_DIR}/Viking.c
 )
 
 target_include_directories(

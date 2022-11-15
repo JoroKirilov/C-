@@ -1,43 +1,48 @@
 #include "BattleField.h"
 #include "Fleet.h"
+//#include "Print.h"
+#include "Viking.h"
+
+#include<stdio.h>
+#include<string.h>
 
 void generateTerranFleet(BattleField *battleField, const char *terranFleetStr) {
     
-    int stelen =  strlen(terranFleetStr);
-    vectorInit(&battleField->terranFleet , stelen); 
+    int terranFleetLen =  strlen(terranFleetStr);
+    vectorInit(&battleField->terranFleet , terranFleetLen); 
     
-    while(terranFleetStr != '\0')
+    while(*terranFleetStr != '\0')
     {
-      if (terranFleetStr == 'v')
+      if (*terranFleetStr == 'v')
       {
           vectorPush(&battleField->terranFleet, initViking());
           //todo: cast to struct terran ship 
       }
-      else if (terranFleetStr = 'b')
+      /* else if (*terranFleetStr == 'b')
       {
         vectorPush(&battleField->terranFleet, initBattleCruiser());
       }
-      
-      
+     */
       terranFleetStr++;
     }
 }
 
 void generateProtossFleet(BattleField *battleField, const char *protossFleetStr) {
+
     int stelen =  strlen(protossFleetStr);
     vectorInit(&battleField->terranFleet , stelen); 
     
-    while(protossFleetStr != '\0')
+    while(*protossFleetStr != '\0')
     {
-      if (protossFleetStr == 'v')
+      if (*protossFleetStr == 'v')
       {
           vectorPush(&battleField->terranFleet, initViking());
           //todo: cast to struct terran ship 
       }
-      else if (protossFleetStr = 'b')
+     /*  else if (*protossFleetStr == 'b')
       {
         vectorPush(&battleField->protossFleet, initBattleCruiser());
-      }
+      } */
 
       protossFleetStr++;
     }
@@ -58,8 +63,8 @@ void startBattle(BattleField *battleField) {
   }
 }
 
-void deinit(BattleField *battleField) {
-}
+/* void deinit(BattleField *battleField) {
+} */
 
 bool processTerranTurn(BattleField *battleField) { 
 
@@ -70,20 +75,20 @@ bool processTerranTurn(BattleField *battleField) {
 
      bool statusOfAttackedShip = ALIVE ; 
 
-     if (currentAttackingShip->typeShip == BATTLE_CRUSER)
+    /*  if (currentAttackingShip->typeShip == BATTLE_CRUSER)
      {
         statusOfAttackedShip = battleCruserAttack(currentAttackingShip , currentAttackedShip);   
-     }
-     else if(currentAttackingShip->typeShip == VIKING){
+     } */
+     if(currentAttackingShip->typeShip == VIKING){
         statusOfAttackedShip = vikingAttack(currentAttackingShip , currentAttackedShip );
      }
      if (statusOfAttackedShip == DESTROYED)
      {
-        printStatus(currentAttackingShip->typeShip ,
+        /* printStatus(currentAttackingShip->typeShip ,
                     &currentAttackedShip ,
                     idxOfAttackingShip ,
-                    battleField->protossFleet); 
-        
+                    battleField->protossFleet);  */
+        printf("win"); 
      }
        
   }
@@ -95,7 +100,9 @@ bool processProtossTurn(BattleField *battleField) {
    for (size_t i = 0; i < battleField->terranFleet.size ; i++)
   {
      protossShip* currentAttackingShip = vectorGet(&battleField->protossFleet , i);
-     terranShip* currentAttackedShip = vectorBack(&battleField->terranFleet);
+     //terranShip* currentAttackedShip = vectorBack(&battleField->terranFleet);
+
+     //bool statusOfAttackedShip = ALIVE ; 
 
      if (currentAttackingShip->typeShip == CARRIER)
      {
@@ -107,5 +114,6 @@ bool processProtossTurn(BattleField *battleField) {
   return false;
 
   }
+  return true; 
 }
 

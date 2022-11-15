@@ -1,7 +1,6 @@
 #include<stdio.h>
-#include "Fleet.h"
-#include "Vector.h"
 
+/* 
 void printStatus(int attackingShip,
                  protossShip **destroyedShip ,
                  size_t idxOfAttackingShip ,
@@ -21,6 +20,6 @@ free(*destroyedShip);
 destroyedShip = NULL ;
 }
     
-
+ */
 
                 

@@ -1,5 +1,8 @@
+#ifndef FLEET_H_
+#define FLEET_H_
 
-#include "defines.h"
+
+#include "Defines.h"
 #include <stdlib.h>
 #include <stdint.h>
 
@@ -26,9 +29,8 @@ typedef struct {
 terranShip *initViking(void);
 
 
-  //
 /* 
-    if (/* condition */
+    if (* condition */
     
         /* code */
     
@@ -36,3 +38,6 @@ terranShip *initViking(void);
 
 
 //TODO : MAKE STRUCT FOR ANOTHER SHIPS  */
+
+
+#endif // FLEET_H_

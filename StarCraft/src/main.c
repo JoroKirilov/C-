@@ -5,28 +5,36 @@
 
 #define BUFFSIZE 50
 
-bool validTerranFleet (char * fleet );
+/* bool validTerranFleet (char * fleet )
+{
+  if(*fleet == 'v')
+  return true; 
+}
 
 
-bool validProtossFleet (char *fleet );
+bool validProtossFleet (char *fleet )
+{
+  if (*fleet == 'b')
+  return true ;
+} */
 
 
 int main() {
 
-  char terranFleet[BUFFSIZE];
-  char protossFleet[BUFFSIZE];
+  char terranFleet[BUFFSIZE] ="vv";
+  char protossFleet[BUFFSIZE] = "bb";
  
-  do
+ /*  do
   {
     scanf("%s %s", terranFleet, protossFleet);
   } while (validFleetInput(terranFleet) );
-  // TODO: write func validInput() 
+  // TODO: write func validInput()  */
   
   BattleField battleField;
   generateTerranFleet(&battleField, terranFleet);
   generateProtossFleet(&battleField, protossFleet);
   startBattle(&battleField);
-  deinit(&battleField);
+  //deinit(&battleField);
 
   return EXIT_SUCCESS;
 }
