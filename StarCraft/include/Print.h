@@ -13,4 +13,4 @@
                  size_t idxOfAttackingShip ,
                  Vector *enemiesFleet) ; */
 
-#endif // PRINT
+#endif // PRINT_H_

@@ -63,8 +63,10 @@ void startBattle(BattleField *battleField) {
   }
 }
 
-/* void deinit(BattleField *battleField) {
-} */
+void deinit(BattleField *battleField) {
+    vectorFree(&battleField->protossFleet);
+    vectorFree(&battleField->terranFleet);
+} 
 
 bool processTerranTurn(BattleField *battleField) { 
 

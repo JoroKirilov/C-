@@ -16,6 +16,8 @@ add_executable(
     ${INC_DIR}/Fleet.h
     ${INC_DIR}/Print.h
     ${INC_DIR}/Viking.h
+    ${INC_DIR}/Utilities.h
+
         
     ${SRC_DIR}/main.c
     ${SRC_DIR}/Vector.c
@@ -23,6 +25,8 @@ add_executable(
     ${SRC_DIR}/Fleet.c
     ${SRC_DIR}/Print.c
     ${SRC_DIR}/Viking.c
+    ${SRC_DIR}/Utilities.c
+
 )
 
 target_include_directories(
