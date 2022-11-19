@@ -1,0 +1,1 @@
+/usr/bin/gcc -g   CMakeFiles/warcraft.dir/src/main.c.o  -o warcraft 

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Defines.h
+
+../include/Hero.h
+Defines.h
+../include/Defines.h
+
+/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/src/main.c
+stdio.h
+-
+stdlib.h
+-
+Hero.h
+/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/src/Hero.h
+
