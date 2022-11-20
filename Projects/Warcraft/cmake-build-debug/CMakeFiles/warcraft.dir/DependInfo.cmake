@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/src/main.c" "/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug/CMakeFiles/warcraft.dir/src/main.c.o"
+  "/home/kirilov/code_workspace/C-/Projects/Warcraft/src/Hero.c" "/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/CMakeFiles/warcraft.dir/src/Hero.c.o"
+  "/home/kirilov/code_workspace/C-/Projects/Warcraft/src/actions.c" "/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/CMakeFiles/warcraft.dir/src/actions.c.o"
+  "/home/kirilov/code_workspace/C-/Projects/Warcraft/src/main.c" "/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/CMakeFiles/warcraft.dir/src/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

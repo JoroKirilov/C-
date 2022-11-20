@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/warcraft.dir/src/main.c.o"
+  "CMakeFiles/warcraft.dir/src/Hero.c.o"
+  "CMakeFiles/warcraft.dir/src/actions.c.o"
   "warcraft.pdb"
   "warcraft"
 )

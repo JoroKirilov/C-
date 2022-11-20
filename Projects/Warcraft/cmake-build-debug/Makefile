@@ -48,10 +48,10 @@ RM = /home/kirilov/Downloads/clion/clion-2019.2/bin/cmake/linux/bin/cmake -E rem
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft
+CMAKE_SOURCE_DIR = /home/kirilov/code_workspace/C-/Projects/Warcraft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug
+CMAKE_BINARY_DIR = /home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug/CMakeFiles /home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/CMakeFiles /home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,60 @@ warcraft/fast:
 	$(MAKE) -f CMakeFiles/warcraft.dir/build.make CMakeFiles/warcraft.dir/build
 .PHONY : warcraft/fast
 
+src/Hero.o: src/Hero.c.o
+
+.PHONY : src/Hero.o
+
+# target to build an object file
+src/Hero.c.o:
+	$(MAKE) -f CMakeFiles/warcraft.dir/build.make CMakeFiles/warcraft.dir/src/Hero.c.o
+.PHONY : src/Hero.c.o
+
+src/Hero.i: src/Hero.c.i
+
+.PHONY : src/Hero.i
+
+# target to preprocess a source file
+src/Hero.c.i:
+	$(MAKE) -f CMakeFiles/warcraft.dir/build.make CMakeFiles/warcraft.dir/src/Hero.c.i
+.PHONY : src/Hero.c.i
+
+src/Hero.s: src/Hero.c.s
+
+.PHONY : src/Hero.s
+
+# target to generate assembly for a file
+src/Hero.c.s:
+	$(MAKE) -f CMakeFiles/warcraft.dir/build.make CMakeFiles/warcraft.dir/src/Hero.c.s
+.PHONY : src/Hero.c.s
+
+src/actions.o: src/actions.c.o
+
+.PHONY : src/actions.o
+
+# target to build an object file
+src/actions.c.o:
+	$(MAKE) -f CMakeFiles/warcraft.dir/build.make CMakeFiles/warcraft.dir/src/actions.c.o
+.PHONY : src/actions.c.o
+
+src/actions.i: src/actions.c.i
+
+.PHONY : src/actions.i
+
+# target to preprocess a source file
+src/actions.c.i:
+	$(MAKE) -f CMakeFiles/warcraft.dir/build.make CMakeFiles/warcraft.dir/src/actions.c.i
+.PHONY : src/actions.c.i
+
+src/actions.s: src/actions.c.s
+
+.PHONY : src/actions.s
+
+# target to generate assembly for a file
+src/actions.c.s:
+	$(MAKE) -f CMakeFiles/warcraft.dir/build.make CMakeFiles/warcraft.dir/src/actions.c.s
+.PHONY : src/actions.c.s
+
 src/main.o: src/main.c.o
 
 .PHONY : src/main.o
@@ -159,6 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... warcraft"
 	@echo "... edit_cache"
+	@echo "... src/Hero.o"
+	@echo "... src/Hero.i"
+	@echo "... src/Hero.s"
+	@echo "... src/actions.o"
+	@echo "... src/actions.i"
+	@echo "... src/actions.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

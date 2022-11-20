@@ -8,33 +8,33 @@
 		<Option virtualFolders="CMake Files\;CMake Files\cmake_helpers\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug"/>
+				<Option working_dir="/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug"/>
+				<Option working_dir="/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="warcraft">
-				<Option output="/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug/warcraft" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug"/>
+				<Option output="/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/warcraft" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/include"/>
+					<Add directory="/home/kirilov/code_workspace/C-/Projects/Warcraft/include"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -44,20 +44,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 warcraft"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 warcraft"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="warcraft/fast">
-				<Option output="/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug/warcraft" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug"/>
+				<Option output="/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/warcraft" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/include"/>
+					<Add directory="/home/kirilov/code_workspace/C-/Projects/Warcraft/include"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -67,36 +67,45 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 warcraft/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 warcraft/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug"/>
+				<Option working_dir="/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/include/Defines.h">
+		<Unit filename="/home/kirilov/code_workspace/C-/Projects/Warcraft/include/Defines.h">
 			<Option target="warcraft"/>
 		</Unit>
-		<Unit filename="/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/include/Hero.h">
+		<Unit filename="/home/kirilov/code_workspace/C-/Projects/Warcraft/include/Hero.h">
 			<Option target="warcraft"/>
 		</Unit>
-		<Unit filename="/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/src/main.c">
+		<Unit filename="/home/kirilov/code_workspace/C-/Projects/Warcraft/include/actions.h">
 			<Option target="warcraft"/>
 		</Unit>
-		<Unit filename="/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/CMakeLists.txt">
+		<Unit filename="/home/kirilov/code_workspace/C-/Projects/Warcraft/src/Hero.c">
+			<Option target="warcraft"/>
+		</Unit>
+		<Unit filename="/home/kirilov/code_workspace/C-/Projects/Warcraft/src/actions.c">
+			<Option target="warcraft"/>
+		</Unit>
+		<Unit filename="/home/kirilov/code_workspace/C-/Projects/Warcraft/src/main.c">
+			<Option target="warcraft"/>
+		</Unit>
+		<Unit filename="/home/kirilov/code_workspace/C-/Projects/Warcraft/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake_helpers/helpers_c.cmake">
+		<Unit filename="/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake_helpers/helpers_c.cmake">
 			<Option virtualFolder="CMake Files\cmake_helpers\"/>
 		</Unit>
 	</Project>

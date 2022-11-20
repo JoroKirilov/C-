@@ -12,11 +12,7 @@
 Defines.h
 ../include/Defines.h
 
-/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/src/main.c
-stdio.h
--
-stdlib.h
--
+/home/kirilov/code_workspace/C-/Projects/Warcraft/src/Heroes.c
 Hero.h
-/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/src/Hero.h
+/home/kirilov/code_workspace/C-/Projects/Warcraft/src/Hero.h
 

@@ -43,10 +43,10 @@ RM = /home/kirilov/Downloads/clion/clion-2019.2/bin/cmake/linux/bin/cmake -E rem
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft
+CMAKE_SOURCE_DIR = /home/kirilov/code_workspace/C-/Projects/Warcraft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug
+CMAKE_BINARY_DIR = /home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/warcraft.dir/depend.make
@@ -59,28 +59,58 @@ include CMakeFiles/warcraft.dir/flags.make
 
 CMakeFiles/warcraft.dir/src/main.c.o: CMakeFiles/warcraft.dir/flags.make
 CMakeFiles/warcraft.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/warcraft.dir/src/main.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/warcraft.dir/src/main.c.o   -c /home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/warcraft.dir/src/main.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/warcraft.dir/src/main.c.o   -c /home/kirilov/code_workspace/C-/Projects/Warcraft/src/main.c
 
 CMakeFiles/warcraft.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/warcraft.dir/src/main.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/src/main.c > CMakeFiles/warcraft.dir/src/main.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kirilov/code_workspace/C-/Projects/Warcraft/src/main.c > CMakeFiles/warcraft.dir/src/main.c.i
 
 CMakeFiles/warcraft.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/warcraft.dir/src/main.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/src/main.c -o CMakeFiles/warcraft.dir/src/main.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kirilov/code_workspace/C-/Projects/Warcraft/src/main.c -o CMakeFiles/warcraft.dir/src/main.c.s
+
+CMakeFiles/warcraft.dir/src/Hero.c.o: CMakeFiles/warcraft.dir/flags.make
+CMakeFiles/warcraft.dir/src/Hero.c.o: ../src/Hero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/warcraft.dir/src/Hero.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/warcraft.dir/src/Hero.c.o   -c /home/kirilov/code_workspace/C-/Projects/Warcraft/src/Hero.c
+
+CMakeFiles/warcraft.dir/src/Hero.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/warcraft.dir/src/Hero.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kirilov/code_workspace/C-/Projects/Warcraft/src/Hero.c > CMakeFiles/warcraft.dir/src/Hero.c.i
+
+CMakeFiles/warcraft.dir/src/Hero.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/warcraft.dir/src/Hero.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kirilov/code_workspace/C-/Projects/Warcraft/src/Hero.c -o CMakeFiles/warcraft.dir/src/Hero.c.s
+
+CMakeFiles/warcraft.dir/src/actions.c.o: CMakeFiles/warcraft.dir/flags.make
+CMakeFiles/warcraft.dir/src/actions.c.o: ../src/actions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/warcraft.dir/src/actions.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/warcraft.dir/src/actions.c.o   -c /home/kirilov/code_workspace/C-/Projects/Warcraft/src/actions.c
+
+CMakeFiles/warcraft.dir/src/actions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/warcraft.dir/src/actions.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kirilov/code_workspace/C-/Projects/Warcraft/src/actions.c > CMakeFiles/warcraft.dir/src/actions.c.i
+
+CMakeFiles/warcraft.dir/src/actions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/warcraft.dir/src/actions.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kirilov/code_workspace/C-/Projects/Warcraft/src/actions.c -o CMakeFiles/warcraft.dir/src/actions.c.s
 
 # Object files for target warcraft
 warcraft_OBJECTS = \
-"CMakeFiles/warcraft.dir/src/main.c.o"
+"CMakeFiles/warcraft.dir/src/main.c.o" \
+"CMakeFiles/warcraft.dir/src/Hero.c.o" \
+"CMakeFiles/warcraft.dir/src/actions.c.o"
 
 # External object files for target warcraft
 warcraft_EXTERNAL_OBJECTS =
 
 warcraft: CMakeFiles/warcraft.dir/src/main.c.o
+warcraft: CMakeFiles/warcraft.dir/src/Hero.c.o
+warcraft: CMakeFiles/warcraft.dir/src/actions.c.o
 warcraft: CMakeFiles/warcraft.dir/build.make
 warcraft: CMakeFiles/warcraft.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable warcraft"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable warcraft"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/warcraft.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -93,6 +123,6 @@ CMakeFiles/warcraft.dir/clean:
 .PHONY : CMakeFiles/warcraft.dir/clean
 
 CMakeFiles/warcraft.dir/depend:
-	cd /home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft /home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft /home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug /home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug /home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/cmake-build-debug/CMakeFiles/warcraft.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kirilov/code_workspace/C-/Projects/Warcraft /home/kirilov/code_workspace/C-/Projects/Warcraft /home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug /home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug /home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/CMakeFiles/warcraft.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/warcraft.dir/depend
 

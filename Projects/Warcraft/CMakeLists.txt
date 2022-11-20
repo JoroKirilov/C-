@@ -14,7 +14,7 @@ add_executable(
         ${INC_DIR}/Hero.h
         
         ${SRC_DIR}/main.c
-)
+        src/Hero.c src/actions.c include/actions.h)
 
 target_include_directories(
     ${PROJECT_NAME} 

@@ -6,5 +6,5 @@ C_FLAGS = -g   -Wall -Wextra -Werror -Wundef -Wuninitialized -Wshadow -Wpointer-
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/kirilov/code_workspace/C-/S04-Ed-Edd-n-Eddy/Warcraft/include 
+C_INCLUDES = -I/home/kirilov/code_workspace/C-/Projects/Warcraft/include 
 

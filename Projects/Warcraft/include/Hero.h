@@ -20,11 +20,12 @@ typedef struct {
   int manaRegenRate;
 } Hero;
 
-void heroBaseInit(Hero *hero, const char *inputName, int inputMaxMana,
+void heroBaseInit(Hero *hero, const char inputName, int inputMaxMana,
                   int inputManaRegenRate);
 
 void heroSpellsInit(Hero *hero, const char *basicSpellName,
                     int basicSpellManaCost, const char *ultimateSpellName,
                     int ultimateSpellManaCost);
+
 
 #endif /* HERO_H_ */
