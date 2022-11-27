@@ -1,3 +1,0 @@
-/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/CMakeFiles/warcraft.dir
-/home/kirilov/code_workspace/C-/Projects/Warcraft/cmake-build-debug/CMakeFiles/edit_cache.dir
